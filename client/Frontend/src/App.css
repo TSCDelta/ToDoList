@@ -1,0 +1,112 @@
+/* General Page Styling */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #1e293b; /* Dark Blue-Gray */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+	color: #e0e0e0; /* Light Gray Text */
+}
+
+/* Main App Container */
+.App {
+	background: #2d3e50; /* Darker Blue */
+	padding: 20px;
+	border-radius: 12px;
+	box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+	width: 400px;
+	text-align: center;
+	border: 2px solid #3b82f6; /* Muted Blue Border */
+}
+
+/* Heading */
+h1 {
+	color: #bfdbfe; /* Soft Blue */
+	font-size: 24px;
+	font-weight: bold;
+}
+
+/* Input and Add Button */
+input {
+	width: 65%;
+	padding: 10px;
+	margin-top: 10px;
+	border: 2px solid #3b82f6; /* Muted Blue */
+	border-radius: 6px;
+	font-size: 16px;
+	color: #e0e0e0; /* Light Text */
+	background-color: #1e293b; /* Darker Background */
+}
+
+button {
+	padding: 10px 15px;
+	margin-left: 5px;
+	border: none;
+	background-color: #3b82f6; /* Muted Blue */
+	color: #e0e0e0;
+	font-size: 16px;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: 0.3s;
+	font-weight: bold;
+}
+
+button:hover {
+	background-color: #2563eb; /* Slightly Darker Blue */
+}
+
+/* Task List */
+ul {
+	list-style: none;
+	padding: 0;
+	margin-top: 20px;
+}
+
+li {
+	background: #334155; /* Dark Blue-Gray */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 12px;
+	margin-bottom: 10px;
+	border-radius: 6px;
+	border: 1px solid #3b82f6; /* Muted Blue Border */
+	box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+	font-weight: bold;
+	color: #e0e0e0;
+}
+
+/* Button Container */
+.buttons {
+	display: flex;
+	gap: 5px;
+}
+
+/* Move Up Button */
+.buttons button:nth-child(1) {
+	background-color: #64748b; /* Gray-Blue */
+}
+
+.buttons button:nth-child(1):hover {
+	background-color: #475569; /* Darker Gray-Blue */
+}
+
+/* Move Down Button */
+.buttons button:nth-child(2) {
+	background-color: #64748b; /* Gray-Blue */
+}
+
+.buttons button:nth-child(2):hover {
+	background-color: #475569; /* Darker Gray-Blue */
+}
+
+/* Delete Button */
+.buttons button:nth-child(3) {
+	background-color: #dc2626; /* Muted Red */
+}
+
+.buttons button:nth-child(3):hover {
+	background-color: #b91c1c; /* Darker Red */
+}
